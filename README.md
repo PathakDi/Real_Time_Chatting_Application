@@ -2,10 +2,6 @@
 
 A simple demo chat app built on [Node.js](https://nodejs.org/), [Express.js](https://expressjs.com/) and [Socket.io](https://socket.io/).
 
-## Demo
-
-https://owan-nodejs-chat-app.herokuapp.com
-
 ## Pre-requisites
 
 To setup and run the project for local development / testing, you will need to use Node.js and NPM. I don't explicitly specify a minimum Node.js/NPM version for the app but I recommend going with whatever the latest LTS version is at the point in time you are setting things up. The minimum vesion of Node.js that I have tested this app on is **10.16.3**.
@@ -16,7 +12,7 @@ Another option for installing Node is the **Node Version Manager** (**nvm**), wh
 
 ## Installation
 
-The code for the chat app can be found at the public [GitHub](https://github.com/) repo [https://github.com/owanhunte/nodejs-chat-app](https://github.com/owanhunte/nodejs-chat-app). Either clone the repo to a local folder on your machine or download and extract the archive if you don't have [Git](https://git-scm.com/) installed.
+The code for the chat app can be found at the public [GitHub](https://github.com/) repo [https://github.com/PathakDi/Real_Time_Chatting_Application](https://github.com/PathakDi/Real_Time_Chatting_Application). Either clone the repo to a local folder on your machine or download and extract the archive if you don't have [Git](https://git-scm.com/) installed.
 
 Node.js Chat App with Location Sender
 A simple demo chat app built using Node.js, Express.js, and Socket.io, with a feature allowing users to share their current location.
@@ -46,7 +42,7 @@ You can download Node.js from https://nodejs.org/en/download, or use Node Versio
 Installation
 Clone the repository or download the code from the GitHub repository:
 
-## git clone https://github.com/owanhunte/nodejs-chat-app
+## git clone https://github.com/PathakDi/Real_Time_Chatting_Application
 ## cd nodejs-chat-app
 After cloning the repo, install the dependencies with:
 

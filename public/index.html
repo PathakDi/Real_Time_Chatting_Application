@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+    <style>
+        /* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #6C63FF, #5733FF);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+/* Centered Form Styles */
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.centered-form__box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limit form width */
+    text-align: center;
+}
+
+.centered-form__box h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #5733FF; /* Heading color */
+}
+
+/* Form Field Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between form elements */
+}
+
+label {
+    font-weight: 500;
+    color: #555;
+    text-align: left;
+}
+
+input {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input:focus {
+    border-color: #5733FF;
+    box-shadow: 0 4px 10px rgba(108, 99, 255, 0.2);
+    background-color: #fff;
+}
+
+/* Join Button Styles */
+button {
+    padding: 14px;
+    background: linear-gradient(135deg, #5733FF, #6C63FF);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #6C63FF, #5733FF);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .centered-form__box {
+        padding: 20px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+    </style>
+    <head>
+        <title>Chat App</title>
+        <link rel="icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/css/styles.min.css">
+    </head>
+    <body>
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1>Join Chat</h1>
+                <form action="/chat.html">
+                    <label for="username">Display Name</label>
+                    <input type="text" name="username" placeholder="Display name" required>
+                    <label for="room">Room Name</label>
+                    <input type="text" name="room" placeholder="Room" required>
+                    <button>Join</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
